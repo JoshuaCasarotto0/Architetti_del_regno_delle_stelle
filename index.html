@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Architetti del Regno delle Stelle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./dist/main.js" defer></script>
+</head>
+<body>
+
+    <h1>Architetti del Regno delle Stelle</h1>
+
+    <div class="contenitore">
+        <input type="number" id="numero" min="1" max="10" placeholder="N">
+        <button onclick="creaTabella()">Genera</button>
+
+        <label for="figura">Figura:</label>
+        <select id="figura" name="figura">
+            <option value="a">Opzione A.</option>
+            <option value="b">Opzione B.</option>
+            <option value="c">Opzione C.</option>
+            <option value="d">Opzione D.</option>
+        </select>
+    </div>
+
+    <div class="messaggio">
+        <p id="messaggio"></p>
+    </div>
+
+    <div id="tabella"></div>
+</body>
+</html>
